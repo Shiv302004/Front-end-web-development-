@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Food Menu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+
+    <section class = "menu">
+      <div class = "menu-container">
+        <div class = "menu-head">
+          <h2>Palate Paradise - రుచి స్వర్గం</h2>
+          <p>Welcome to Palate Paradise, where delicious dishes await.
+            Experience a world of flavors in every bite,
+            Crafted with care and bursting with taste,
+            Indulge in culinary bliss at Palate Paradise.</p>
+        </div>
+
+        <div class = "menu-btns">
+          <button type = "button" class = "menu-btn active-btn" id = "featured">featured</button>
+          <button type = "button" class = "menu-btn" id = "today-special">today's special</button>
+          <button type = "button" class = "menu-btn" id = "new-arrival">new arrivals</button>
+        </div>
+
+        <div class = "food-items">
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "image1" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Chilli Mirchi Bajji </h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$5.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Featured</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "image 2.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Gobi Manchurian</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$15.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Today's Special</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "image 3.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Paneer 65</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$20.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>New Arrivals</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "image4.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Chicken Lollipops </h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$23.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Featured</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "image5.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Rava Pulihora </h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$29.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Today's Special</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "image6.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Paneer Butter Masala Pasta</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$10.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>New Arrivals</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "image7.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Prawn Manchurian </h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$15.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Featured</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "image8.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Chicken Legs</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$29.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Today's Special</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "image9.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Mutton Fried Rice</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$35.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>New Arrivals</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "image10.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">French Fries</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$9.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Featured</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "image11.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Veg Fried Rice</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$5.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Today's Special</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "image12.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Chilli Garlic Naan</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$11.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>New Arrivals</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "image15.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Noodles</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$12.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Featured</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "image13.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Cheese Pizza</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$12.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Today's Special</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "image14.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Jaggery Sesame Balls </h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$14.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>New Arrivals</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "image16.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Coconut Litchi Payasam</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$22.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Featured</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "image17.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name"> Pickles</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$7.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>Today's Special</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "image18.webp" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Nannari Fizz </h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$10.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>New Arrivals</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "image19.webp" alt="food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Spicy Ginger Lemonade  </h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">$10.00</h3>
+              <ul class = "rating">
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "fas fa-star"></i></li>
+                <li><i class = "far fa-star"></i></li>
+              </ul>
+              <p class = "category">Categories: <span>New Arrivals</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+        </div>
+      </div>
+    </section>
+     <script src="script.js"></script>
+     <script src="script.js"></script>
+
+  </body>
+</html>
